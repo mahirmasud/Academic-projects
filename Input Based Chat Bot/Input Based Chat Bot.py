@@ -19,6 +19,9 @@ def clearScreen():
 
 Textprint("Hi my name is Masud \n")
 
-a=Textinput("What's your name?? \n")
+name=Textinput("What's your name?? \n")
 
-Textprint(f"Hello {a} how are you?? \n")
+Textprint(f"Hello {name} how are you?? \n")
+print()
+print()
+clearScreen()
